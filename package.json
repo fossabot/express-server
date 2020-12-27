@@ -1,26 +1,16 @@
 {
-  "name": "express-static-server",
-  "version": "0.1.0",
-  "description": "Express static server",
-  "main": "core.js",
+  "name": "express",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "npm i -g pkg && pkg core.js"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/j-p-s-o/express-server.git"
-  },
-  "keywords": [
-    "express",
-    "server"
-  ],
-  "author": "João Pedro Santos",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/j-p-s-o/express-server/issues"
-  },
-  "homepage": "https://github.com/j-p-s-o/express-server#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
   }
 }
