@@ -4,6 +4,7 @@
   "description": "",
   "main": "core.js",
   "scripts": {
+    "start": "node core.js",
     "test": "node test/test.js"
   },
   "repository": {
